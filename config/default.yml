@@ -6,8 +6,8 @@ application:
   domain: juice-sh.op
   name: 'AppSec Training - Figurines'
   logo: avalogo.png
-  favicon: favicon_js.ico
-  theme: bluegrey-lightgreen # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
+  favicon: favicon.png
+  theme: deeporange-indigo # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
   showVersionNumber: true
   showGitHubLinks: true
   localBackupEnabled: true
@@ -85,8 +85,8 @@ hackingInstructor:
 products:
   -
     name: 'Luke Skywalker hooded'
-    price: 1.99
-    deluxePrice: 0.99
+    price: 34.99
+    deluxePrice: 15.99
     limitPerUser: 5
     description: 'Luke Skywalker est l un des grands héros de la saga Star Wars que l on retrouve dans le dernier épisode de la saison'
     image: lukeskywalkerhooded1box_s.jpg
@@ -95,41 +95,41 @@ products:
   -
     name: 'The Mandalorian with darksaber'
     description: 'The mandalorian, de son vrai nom Din Djarin, est le protagoniste de la série Star Wars The Mandalorian. Au début de la série, se déroulant peu après la chute de l empire, Din Djarin est chasseur de primes et on lui confie une mission un peu secrète. Il doit retrouver l enfant d une race semblant être celle de maître Yoda et le ramener à un ancien membre de l empire'
-    price: 2.99
-    deluxePrice: 2.49
+    price: 48.99
+    deluxePrice: 22.49
     image: mandaloriandarksaber1box_s.jpg
     reviews:
       - { text: 'y0ur f1r3wall needs m0r3 musc13', author: uvogin }
   -
     name: 'Luke Skywalker & Grogu'
     description: 'Luke Skywalker est un des personnages principaux de toute la saga Star Wars.'
-    price: 8.99
+    price: 49.99
     image: lukegrogu1box_s.jpg
     reviews:
       - { text: 'I bought it, would buy again. 5/7', author: admin }
   -
     name: 'Krrsantan'
     description: 'Krrsantan est un personnage secondaire mais important de la saison un de la série The Book of Boba Fett. Comme Chewbacca, c est un wookie mais son histoire est bien différente. Il a longtemps travaillé pour l empire, puis comme garde du corps de Jabba The Hutt'
-    price: 4.99
+    price: 27.99
     image: krrsantan1box_s.jpg
   -
     name: 'Tala Durith'
     description: 'Tala Durith est un personnage que l on rencontre dans la première saison de la série Obi-Wan Kenobi se déroulant dix ans après la prise de pouvoir de l empire. Tala Durith est une femme qui s engagea dans l armée impériale car elle croyait sincèrement qu ils avaient le meilleur intérêt du peuple à coeur'
-    price: 2.99
-    deluxePrice: 1.99
+    price: 42.99
+    deluxePrice: 22.99
     limitPerUser: 5
     image: taladurith1box_s.jpg
   -
     name: 'Ben Kenobi on Eopie'
     description: 'Dans la première saison de la série Obi-Wan Kenobi, on retrouve le fameux maître Jedi dix ans après que l empire.'
-    price: 1.99
+    price: 24.99
     image: kenobieopie1box_s.jpg
     reviews:
       - { text: 'Fry liked it too.', author: bender }
   -
     name: 'Reva Third Sister'
     description: 'Reva, aussi appelée Third Sister, est un personnage important de la première saison de la série Obi-Wan Kenobi qui se déroule dix ans après la fin de la trilogie préquelle. L empire galactique est tout-puissant et pourchasse les jedis ainsi que tous ceux qui sont seulement sensibles à la Force pour les tuer afin qu il n en reste plus qu un'
-    price: 22.49
+    price: 18.49
     limitPerUser: 5
     image: reva1box_s.jpg
   -
@@ -140,7 +140,7 @@ products:
   -
     name: 'Vel Sartha'
     description: 'Vel Sartha est un personnage découvert dans la série Star Wars Andor. Elle a vécu notamment durant l ère impériale et faisait partie de la résistance. Elle est née dans une famille riche mais décida de s en éloigner pour s investir dans la résistance'
-    price: 0.01
+    price: 29.01
     image: velsartha1box_s.jpg
     urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
   -
@@ -160,7 +160,7 @@ products:
   -
     name: 'OWASP Juice Shop Sticker (2015/2016 design)'
     description: 'Die-cut sticker with the official 2015/2016 logo. By now this is a rare collectors item. <em>Out of stock!</em>'
-    price: 999.99
+    price: 32.99
     image: bokatankryze2box_s.jpg
     deletedDate: '2017-04-28'
   -
@@ -176,12 +176,12 @@ products:
   -
     name: 'Heavy Infantry Mandalorian'
     description: 'Les Mandaloriens sont le peuple très secret et mystérieux dont est issu The Mandalorian, le personnage principal de la série du même nom se déroulant dans l univers Star Wars plusieurs centaines d années avant la première trilogie Star Wars. The Mandalorian est un chasseur de primes qui accepte une mission spéciale au début de la série'
-    price: 9.99
+    price: 17.99
     image: heavyinfantrymandalorian1box_s.jpg
   -
     name: 'Q9-0'
     description: 'Q9-0 est un droide que l on rencontre dans un épisode de la série The Mandalorian se déroulant dans l univers Star Wars plusieurs centaines d années avant le début de la première trilogie. Le héros est un chasseur de primes issu du mystérieux peuple des mandaloriens qui vivent dans le secret et ne révèlent jamais leur vrai visage'
-    price: 4.99
+    price: 43.99
     image: Q901box_s.jpg
   -
     name: 'C3-PO with red eyes'
@@ -203,7 +203,7 @@ products:
   -
     name: 'Jawa'
     description: 'Les jawas sont de drôles de créatures vivant principalement sur la planète Tatooine dans la saga Star Wars. Les personnes ayant déjà vu la véritable apparence des jawas sont très rares puisqu ils portent toujours un manteau avec une une grande capuche qui ne laisse apparaitre de leur visage que les pierres précieuses qu ils mettent sur leurs yeux afin de se protéger des deux soleils de leur planète d origine'
-    price: 2.92
+    price: 15.92
     quantity: 5
     limitPerUser: 5
     image: jawa2box_s.jpg
@@ -218,7 +218,7 @@ products:
   -
     name: 'Leia Battle at Echo Base'
     description: 'La princesse Leia est un des personnages principaux de la première trilogie Star Wars que l on retrouve aussi dans la troisième trilogie. Elle est l une des principales commandantes de l alliance rebelle défiant le diabolique empire galactique'
-    price: 1.99
+    price: 44.99
     image: leiabattleatechobase1box_s.jpg
     reviews:
       - { text: 'Fresh out of a replicator.', author: jim }
@@ -230,18 +230,18 @@ products:
   -
     name: 'Han Solo with Tauntaun Battle at Echo Base'
     description: 'Han Solo est un des héros de la première trilogie Star Wars, la fameuse épopée de science-fiction de George Lucas. Can be <a href="/#recycle">sent back to us</a> for recycling.'
-    price: 0.89
+    price: 37.89
     limitPerUser: 5
     image: hansolobattleatechobase1box_s.jpg
   -
     name: 'Wampa Battle at Echo Base'
     description: 'Le wampa est une créature vivant sur la planète Hoth dans la trilogie Star Wars'
-    price: 89.99
+    price: 24.99
     image: wampabattleatechobase1box_s.jpg
   -
     name: 'Darth Maul avec double sabre'
     description: 'Darth Maul est l un des personnages importants de la seconde trilogie Star Wars racontant la jeunesse d Anakin Skywalker et la montée au pouvoir de l empire galactique. C est un Zabrak de la planète Dathomir et comme tous ses frères, il était un esclave des Soeurs de la Nuit'
-    price: 99.99
+    price: 17.99
     image: darthmaul3box_s.jpg # Exif metadata contains "OpenSCAD" as subtle hint...
     fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
     exifForBlueprintChallenge:
@@ -249,25 +249,25 @@ products:
   -
     name: 'Juice Shop Artwork'
     description: 'Unique masterpiece painted with different kinds of juice on 90g/m² lined paper.'
-    price: 278.74
+    price: 25.74
     quantity: 0
     image: firstorderjettrooper1box_s.jpg
     deletedDate: '2020-12-24'
   -
     name: 'Global OWASP WASPY Award 2017 Nomination'
     description: 'Your chance to nominate up to three quiet pillars of the OWASP community ends 2017-06-30! <a href="https://www.owasp.org/index.php/WASPY_Awards_2017">Nominate now!</a>'
-    price: 0.03
+    price: 47.03
     image: mandaloriangrogu1box_s.jpg
     deletedDate: '2017-07-01'
   -
     name: 'Boba Fett'
     description: 'Boba Fett est un personnage important de l univers Star Wars que l on a rencontré dans la première trilogie comme étant le chasseur de prime mandalorien ayant arrêté Han Solo pour le ramener à Jabba the Hut. On le croyait mort dans la fosse du sarlac. Dans la seconde trilogie, on apprend qu il n est qu un clone de son père Jango Fett'
-    price: 3.99
+    price: 49.99
     image: bobbafettmandalorian1box_s.jpg
   -
     name: 'Bo-Katan Kryze chase'
     description: 'Bo-Katan est un personnage de l univers Star Wars que l on avait découvert pour la première fois dans la série animée'
-    price: 2.99
+    price: 17.99
     image: bokatankryzechase1box_s.jpg
     reviews:
       - { text: '0 st4rs f0r 7h3 h0rr1bl3 s3cur17y', author: uvogin }
@@ -280,14 +280,14 @@ products:
   -
     name: 'IG-11'
     description: 'IG-11 est l autre chasseur de primes qui avait été envoyé pour retrouver "The Child" au début de la série Star Wars The Mandalorian. Alors que Din Djarin, le chasseur de primes mandalorien avait pour ordre de récupérer l enfant vivant pour le ramener à son client, IG-11 était programmé pour le tuer s il pensait qu il risquait de tomber dans les mains de quelqu un d autre'
-    price: 5.99
+    price: 46.99
     image: ig11child1box_s.jpg
     reviews:
       - { text: 'Even more interesting than watching Interdimensional Cable!', author: morty }
   -
     name: 'Dark Trooper'
     description: 'Les Deathtroopers sont des machines que l on rencontre pour la première fois dans la deuxième saison de la série Star Wars The Mandalorian. Bien qu ils soient appelés des troopers, ce ne sont pas des hommes en tenue de combat comme les stormtroopers mais des machines'
-    price: 2999
+    price: 28
     quantity: 3
     limitPerUser: 1
     image: deathtrooper1box_s.jpg
@@ -300,7 +300,7 @@ products:
   -
     name: 'Dagobah Yoda'
     description: 'Yoda est un personnage important de la saga Star Wars. Il apparait dans la première ainsi que dans la deuxième trilogie se déroulant une vingtaine d années avant. C est l un des plus grands maîtres Jedi ayant jamais existé et il siégea au grand conseil pendant plusieurs siècles'
-    price: 0.01
+    price: 50.01
     quantity: 8
     image: yoda2box_s.jpg
     reviews:
@@ -316,7 +316,7 @@ products:
   -
     name: 'Sidon Ithano'
     description: "Sidon Ithano est un personnage du nouveau film de la saga Star Wars : The Force Awakens. C est un fameux contrebandier d'origine Delphidienne qui porte cet étrange casque Kaleesh rouge afin de cacher ses origines"
-    price: 2.00
+    price: 23.00
     quantity: 0
     image: sidon1box_s.jpg
     reviews:
@@ -326,7 +326,7 @@ products:
   -
     name: 'Luke Skywalker The Last Jedi'
     description: "Luke Skywalker est l un des personnages principaux de la saga Star Wars. Après avoir été au centre de la première trilogie puis logiquement absent de la seconde, on le retrouve enfin dans un rôle important pour le second film de la troisième trilogie"
-    price: 13.49
+    price: 39.49
     quantity: 0
     limitPerUser: 1
     image: luke3box_s.jpg
@@ -336,8 +336,8 @@ products:
   -
     name: 'Juice Shop Adversary Trading Card (Common)'
     description: 'Common rarity "Juice Shop" card for the <a href="https://docs.google.com/forms/d/e/1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHFdQc5z8ApwdQ/viewform">Adversary Trading Cards</a> CCG.'
-    price: 2.99
-    deluxePrice: 0.99
+    price: 48.99
+    deluxePrice: 22.99
     deletedDate: '2020-11-30'
     limitPerUser: 5
     image: ccg_common.jpg
@@ -346,8 +346,8 @@ products:
   -
     name: 'Juice Shop Adversary Trading Card (Super Rare)'
     description: 'Super rare "Juice Shop" card with holographic foil-coating for the <a href="https://docs.google.com/forms/d/e/1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHFdQc5z8ApwdQ/viewform">Adversary Trading Cards</a> CCG.'
-    price: 99.99
-    deluxePrice: 69.99
+    price: 37.99
+    deluxePrice: 15.99
     deletedDate: '2020-11-30'
     quantity: 2
     limitPerUser: 1
@@ -357,7 +357,7 @@ products:
   -
     name: 'vulptex'
     description: 'Les vulptices (vulptex étant la forme au singulier du mot) sont des créatures semblables en forme au renard vivant sur la planète Crait dans l univers Star Wars. On les voit pour la première fois dans le film Les Derniers Jedi de la troisième trilogie Star Wars lorsque la résistance se bat sur cette planète contre le Premier Ordre.'
-    price: 9999.99
+    price: 30.99
     quantity: 1
     limitPerUser: 1
     image: vulptex1box_s.jpg
@@ -366,7 +366,7 @@ products:
   -
     name: 'Emperor Palpatine'
     description: 'L empereur Palpatine est un puissant seigneur Sith, c est à dire un Jedi ayant choisi le côté obscur de la force dans la saga Star Wars. Dans la première trilogie, c est le chef du tyrannique empire galactique ayant pour bras droit le fameux Darth Vader'
-    price: 5000
+    price: 42
     quantity: 1
     image: emperorpalpatine1box_s.jpg
     reviews:
@@ -375,7 +375,7 @@ products:
   -
     name: 'Watto'
     description: 'Watto est un personnage apparu dans l univers Star Wars au moment du premier film de la seconde trilogie racontant l enfance d Anakin Skywalker. C est un toydarien vivant sur la planète Tatooine, où après avoir été blessé pendant la guerre, il est devenu commerçant'
-    price: 1000
+    price: 33
     quantity: 3
     limitPerUser: 1
     image: watto1box_s.jpg
@@ -384,7 +384,7 @@ products:
   -
     name: '20th Anniversary Celebration Ticket'
     description: 'Get your <a href="https://20thanniversary.owasp.org/" target="_blank">free 🎫 for OWASP 20th Anniversary Celebration</a> online conference! Hear from world renowned keynotes and special speakers, network with your peers and interact with our event sponsors. With an anticipated 10k+ attendees from around the world, you will not want to miss this live on-line event!'
-    price: 0.00000000000000000001
+    price: 42.10
     deletedDate: '2021-09-25'
     limitPerUser: 1
     image: mandalorianblurrg1box_s.jpg

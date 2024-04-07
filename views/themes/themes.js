@@ -52,5 +52,12 @@ exports.themes = {
     navColor: '#E64A19',
     primLight: '#FF5722',
     primDark: '#BF360C'
+  },
+  'avanade-orange': {
+    bgColor: '#303030',
+    textColor: '#FFFFFF',
+    navColor: '#546E7A',
+    primLight: '#424242',
+    primDark: '#263238'
   }
 }
