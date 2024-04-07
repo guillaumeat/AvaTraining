@@ -4,7 +4,7 @@ server:
   basePath: ''
 application:
   domain: juice-sh.op
-  name: 'AppSec Training - Figurines'
+  name: 'AppSec Training - Figures Shop Center'
   logo: avalogo.png
   favicon: favicon.png
   theme: deeporange-indigo # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
